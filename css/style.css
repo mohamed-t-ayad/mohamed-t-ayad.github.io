@@ -79,11 +79,12 @@ body {
     color: #333;
 }
 
-#summary p {
+/* #summary p {
     font-size: 1.1rem;
     line-height: 1.8;
     color: #555;
-}
+    text-align: left;
+} */
 
 .nav-tabs {
     justify-content: center;
@@ -113,17 +114,24 @@ body {
     border-color: var(--secondary-color);
 }
 
-.tab-content {
-    padding-top: 20px;
+#summary .tab-content {
+    width: 90%;
+    margin: auto;
 }
 
-.tab-pane p {
-    font-size: 1rem;
-    line-height: 1.7;
-    text-align: center;
+#summary .tab-pane p {
+    font-size: 1.2rem;
+    line-height: 1.9;
+    text-align: left;
     color: #444;
+    padding: 5px 0 10px 0;
 }
-
+#summary .tab-pane h3 {
+    padding: 10px 0;
+}
+#summary .tab-pane ul li {
+    padding: 8px 0;
+}
 .tab-pane.projects {
     border: none;
     border-radius: 0px;
