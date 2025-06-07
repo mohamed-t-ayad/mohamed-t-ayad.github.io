@@ -33,7 +33,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .hero-content {
@@ -68,7 +68,6 @@ body {
 #summary {
     padding: 50px 0;
     background-color: #f9f9f9;
-    /* Light background for contrast */
 }
 
 #summary h2 {
@@ -78,13 +77,6 @@ body {
     font-weight: bold;
     color: #333;
 }
-
-/* #summary p {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    color: #555;
-    text-align: left;
-} */
 
 .nav-tabs {
     justify-content: center;
@@ -427,14 +419,11 @@ body {
     font-size: 1.2rem;
     line-height: 1.8;
     color: #555;
-    border-left: 4px solid var(--primary-color);
+    border-left: 4px solid var(--secondary-color);
     padding-left: 15px;
     transition: all 0.4s ease;
 }
 
-.education-details:hover {
-    border-left-color: var(--secondary-color);
-}
 
 /* contact me  */
 #contact h2 {

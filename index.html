@@ -1,532 +1,1253 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mohamed Ayad - Developer Portfolio</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <!-- Hero Section -->
     <header class="hero-section">
-        <div class="overlay"></div>
-        <div class="hero-content">
-            <h1>Mohamed Ayad</h1>
-            <p> Full-Stack Web Developer | Front-End & WordPress Specialist | Laravel Enthusiast</p>
-            <a href="#contact" class="btn btn-primary">Contact Me</a>
-        </div>
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <h1>Mohamed Ayad</h1>
+        <p>
+          Full-Stack Web Developer | Front-End & WordPress Specialist | Laravel
+          Enthusiast
+        </p>
+        <a href="#contact" class="btn btn-primary">Contact Me</a>
+      </div>
     </header>
-    
+
     <!-- Summary Section -->
+
     <section id="summary" class="mb-5">
-        <div class="container">
-            <h2 class="px-2">My Experience</h2>
-            <!-- <p class="text-center w-75 m-auto pb-5">
-                I am a versatile developer with expertise in both front-end and back-end development, specializing in building responsive, user-friendly websites. With a focus on WordPress and Laravel frameworks, I combine modern technologies like HTML, CSS, JavaScript, and PHP to deliver high-performance web solutions tailored to client needs.
-            </p> -->
-        
-            <ul class="nav nav-tabs justify-content-center" id="experienceTabs" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" id="frontend-tab" data-bs-toggle="tab" href="#frontend" role="tab">Front-End Developer</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="wordpress-tab" data-bs-toggle="tab" href="#wordpress" role="tab">WordPress Developer</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="backend-tab" data-bs-toggle="tab" href="#full-stack" role="tab">Full-Stack Developer</a>
-                </li>
+      <div class="container">
+        <h2 class="px-2">My Experience</h2>
+        <div class="row flex-md-row flex-column">
+          <!-- Tabs on the left -->
+          <div class="col-md-3 mb-4 mb-md-0 d-flex justify-content-center">
+            <ul
+              class="nav flex-md-column nav-pills w-100"
+              id="experienceTabs"
+              role="tablist"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="frontend-tab"
+                  data-bs-toggle="tab"
+                  href="#frontend"
+                  role="tab"
+                  >Front-End Engineer</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="wordpress-tab"
+                  data-bs-toggle="tab"
+                  href="#wordpress"
+                  role="tab"
+                  >WordPress Developer</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="backend-tab"
+                  data-bs-toggle="tab"
+                  href="#full-stack"
+                  role="tab"
+                  >Full-Stack Web Developer</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="backend-tab"
+                  data-bs-toggle="tab"
+                  href="#react-developer"
+                  role="tab"
+                  >React.js / Next.js Developer</a
+                >
+              </li>
             </ul>
-        
-            <div class="tab-content pt-4" id="experienceTabsContent">
-                <!-- Front-end  -->
-                <div class="tab-pane fade show active" id="frontend" role="tabpanel">
-                    <p class="">
-                        As a Front-End Developer with 4+ years of experience, I specialize in creating responsive, high-performance interfaces that deliver seamless user experiences across all devices. My expertise lies in transforming Figma and PSD designs into pixel-perfect layouts with clean, maintainable code.
-                    </p>
-                    <h3>Technologies & Skills</h3>
-                    <ul>
-                        <li class="">HTML5, CSS3, Sass, Bootstrap for sleek, responsive layouts</li>
-                        <li>JavaScript (ES6), jQuery, Ajax, and Vue.js for interactivity and dynamic content</li>
-                        <li>Focused on performance optimization (95+ Google PageSpeed score) and SEO-friendly code</li>
-                        <li>Skilled in Git/GitHub workflows for collaborative development</li>
-                    </ul>
-                    <h3>Notable Projects</h3>
-                    <ul>
-                        <li>Modely Landing Page: Developed from scratch and received 5-star client feedback for quality and speed</li>
-                        <li>British Institutes Group: Converted design to a fully responsive landing page within 6 hours, praised for precision and fast delivery</li>
-                        <li>Admin Dashboard: Built a multi-page dashboard using HTML, CSS, and Bootstrap, ensuring smooth navigation</li>
-                        <li>Amdga: Updated layout sections and improved page speed by 5 seconds, achieving a 95+ performance score.</li>
-                    </ul>
-                </div>
-                <!-- wordpress  -->
-                <div class="tab-pane fade" id="wordpress" role="tabpanel">
-                    <p class="">
-                        With 3+ years of experience in WordPress development, I specialize in custom theme creation, website maintenance, and optimization. I excel in building fully responsive websites that meet business needs and ensure optimal performance across devices.
-                    </p>
-                    <h3>Technologies & Skills</h3>
-                    <ul>
-                        <li class="">Custom Themes & Elementor Builder for advanced customization</li>
-                        <li>Experienced with WooCommerce , Salla and Zid e-commerce platforms</li>
-                        <li>Proficient in SEO optimization, performance tools (WP Rocket, LiteSpeed Cache)</li>
-                        <li>Skilled in server setup, domain management, and website migration</li>
-                    </ul>
-                    <h3>Notable Projects</h3>
-                    <ul>
-                        <li>Torino Elevators: Redesigned the website, increasing traffic by 40% through SEO and performance enhancements</li>
-                        <li>Sanad Elevators: Developed and optimized website for  Saudi Arabia-based elevator company, focusing on lead generation and SEO.</li>
-                        <li>Trace Agency : Built website for a social media marketing agencey in Kuwait, delivering modern, user-friendly site aligned with brand’s goals.</li>
-                        <li>Mega Agency : Built website for a social media marketing agencey in UAE , Multi Languages Website aligned with brand’s goals.</li>
-                    </ul>
-                </div>
-                <!-- full-stack  -->
-                <div class="tab-pane fade" id="full-stack" role="tabpanel">
-                    <p class="">
-                        As a Full-Stack Developer, I combine front-end expertise with back-end skills to build complete, scalable solutions. I have experience working with Laravel Blade for dynamic content and API integration, ensuring smooth communication between front and back ends.
-                    </p>
-                    <h3>Technologies & Skills</h3>
-                    <ul>
-                        <li class="">PHP, Laravel, MySQL for backend development</li>
-                        <li>Expertise in Laravel Blade templating for dynamic views</li>
-                        <li>Knowledgeable in API development and Postman testing for seamless integration</li>
-                        <li>Strong focus on performance optimization and clean architecture</li>
-                    </ul>
-                    <h3>Notable Projects</h3>
-                    <ul>
-                        <li>Amdga: Managed the back-end logic, routes, and controllers, improving the system’s structure and performance</li>
-                        <li>Secure Road Services: Designed the complete front-end UI and contributed to back-end development, working on controllers, functions, and business logic for the insurance management system.</li>
-                        <li>API Development: Built APIs for task and user management with secure authentication and error handling.</li>
-                    </ul>
-                </div>
+          </div>
+
+          <!-- Tab content on the right -->
+          <div class="col-md-9">
+            <div class="tab-content pt-3" id="experienceTabsContent">
+              <!-- Front-end -->
+              <div
+                class="tab-pane fade show active"
+                id="frontend"
+                role="tabpanel"
+              >
+                <h3>Front-End Engineer</h3>
+                <p>
+                  Developed high-performance, responsive UIs from Figma/PSD
+                  using modern HTML/CSS/JS. Delivered pixel-perfect layouts and
+                  collaborated in fast-paced projects focused on SEO, speed, and
+                  usability.
+                </p>
+                <!-- <h3>Technologies & Skills</h3> -->
+                <!-- <ul>
+                  <li>
+                    HTML5, CSS3, Sass, Bootstrap for sleek, responsive layouts
+                  </li>
+                  <li>
+                    JavaScript (ES6), jQuery, Ajax, and Vue.js for interactivity
+                    and dynamic content
+                  </li>
+                  <li>
+                    Focused on performance optimization (95+ Google PageSpeed
+                    score) and SEO-friendly code
+                  </li>
+                  <li>
+                    Skilled in Git/GitHub workflows for collaborative
+                    development
+                  </li>
+                </ul> -->
+                <h3>Notable Projects</h3>
+                <ul>
+                  <li>
+                    Mark Haykalah: Developed a fully responsive, bilingual
+                    portfolio website using Next.js, showcasing web development
+                    and design expertise.
+                  </li>
+
+                  <li>
+                    Modely Landing Page: Developed from scratch Modely Landing
+                    Page: Clean, lightweight code with excellent client
+                    feedback.
+                  </li>
+                  <li>
+                    British Institutes Group: Fully responsive UI built in less
+                    than 6 hours with exact design implementation.
+                  </li>
+                </ul>
+              </div>
+
+              <!-- WordPress -->
+              <div class="tab-pane fade" id="wordpress" role="tabpanel">
+                <h3>WordPress Developer</h3>
+                <p>
+                  Specialized in building and maintaining custom WordPress
+                  websites, including WooCommerce stores. Focused on SEO, page
+                  speed, and mobile-first responsiveness aligned with business
+                  goals.
+                </p>
+                <!-- <h3>Technologies & Skills</h3>
+                <ul>
+                  <li>
+                    Custom Themes & Elementor Builder for advanced customization
+                  </li>
+                  <li>
+                    Experienced with WooCommerce, Salla, and Zid e-commerce
+                    platforms
+                  </li>
+                  <li>
+                    Proficient in SEO optimization, performance tools (WP
+                    Rocket, LiteSpeed Cache)
+                  </li>
+                  <li>
+                    Skilled in server setup, domain management, and website
+                    migration
+                  </li>
+                </ul> -->
+                <h3>Notable Projects</h3>
+                <ul>
+                  <li>
+                    Mega Agency: Built website for a social media marketing
+                    agency in UAE, multi-language website aligned with brand’s
+                    goals.
+                  </li>
+                  <li>
+                    Torino Elevators: Redesigned the website, increasing traffic
+                    by 40% through SEO and performance enhancements
+                  </li>
+                  <li>
+                    Trace Agency: Built website for a social media marketing
+                    agency in Kuwait, delivering a modern, user-friendly site
+                    aligned with the brand’s goals.
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Full-Stack -->
+              <div class="tab-pane fade" id="full-stack" role="tabpanel">
+                <h3>Full-Stack Web Developer</h3>
+                <p>
+                  As a Full-Stack Developer, I combine front-end expertise with
+                  back-end skills to build complete, scalable solutions. Built
+                  scalable web solutions using Laravel (Blade), MySQL, and REST
+                  APIs. Delivered backend logic and dynamic views with a focus
+                  on clean architecture and performance.
+                </p>
+                <!-- <h3>Technologies & Skills</h3>
+                <ul>
+                  <li>PHP, Laravel, MySQL for backend development</li>
+                  <li>
+                    Expertise in Laravel Blade templating for dynamic views
+                  </li>
+                  <li>
+                    Knowledgeable in API development and Postman testing for
+                    seamless integration
+                  </li>
+                  <li>
+                    Strong focus on performance optimization and clean
+                    architecture
+                  </li>
+                </ul> -->
+                <h3>Notable Projects</h3>
+                <ul>
+                  <li>
+                    Amdga (Backend): Optimized routing and controller logic.
+                  </li>
+                  <li>
+                    Secure Road Services: End-to-end system including backend
+                    for insurance management.
+                  </li>
+                  <li>
+                    API Suite: Created secure APIs for user/task management with
+                    authentication and validation.
+                  </li>
+                </ul>
+              </div>
+              <!-- React.js / Next.js Developer -->
+              <div class="tab-pane fade" id="react-developer" role="tabpanel">
+                <h3>React.js / Next.js Developer</h3>
+                <p>
+                  As a Full-Stack Developer, I combine front-end expertise with
+                  back-end skills to build complete, scalable solutions. Built
+                  scalable web solutions using Laravel (Blade), MySQL, and REST
+                  APIs. Delivered backend logic and dynamic views with a focus
+                  on clean architecture and performance.
+                </p>
+                <h3>Notable Projects</h3>
+                <ul>
+                  <li>
+                    Portfolio Website (Mark): Multilingual (EN/AR) site built
+                    with Next.js and deployed on Vercel.
+                  </li>
+                  <li>
+                    Reusable Components Library: Developed scalable, i18n-ready
+                    UI modules.
+                  </li>
+                </ul>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
-    
-    
-    <!-- Experience Section -->
+
+    <!-- Professional Experience Section -->
     <section id="experience" class="container mb-5 pb-0">
-        <h2 class="text-center mb-5">Professional Experience</h2>
-    
-        <div class="accordion" id="experienceAccordion">
-            <!-- Front-End Developer Experience -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Freelancer - Front-End Developer <span class="ms-auto text-muted">2020 - Present</span>
-                    </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#experienceAccordion">
-                    <div class="accordion-body">
-                        <ul class="px-md-4">
-                            <li>Developed responsive layouts and converted UI designs into HTML/CSS templates.</li>
-                            <li>Collaborated closely with back-end teams using Laravel Blade to ensure seamless integration.</li>
-                            <li>Gained experience with Vue.js for interactive features but primarily focused on front-end design.</li>
-                            <li>Collected project requirements from clients and transformed ideas into functional websites from scratch.</li>
-                        </ul>
-                    </div>
-                </div>
+      <h2 class="text-center mb-5">Professional Experience</h2>
+
+      <div class="accordion" id="experienceAccordion">
+        <!-- Front-End Developer Experience -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Freelance Front-End Developer
+              <span class="ms-auto text-muted">2020 – Present</span>
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#experienceAccordion"
+          >
+            <div class="accordion-body">
+              <ul class="px-md-4">
+                <li>
+                  Translated Figma/PSD designs into responsive, pixel-perfect
+                  HTML/CSS/JS interfaces.
+                </li>
+                <li>
+                  Integrated front-end templates with Laravel Blade and other
+                  back-end technologies.
+                </li>
+                <li>
+                  Delivered fully mobile-optimized layouts focused on UX, speed,
+                  and accessibility.
+                </li>
+                <li>
+                  Worked with Vue.js and jQuery for interactive UI features and
+                  dynamic content rendering.
+                </li>
+                <li>
+                  Directly communicated with clients to translate requirements
+                  into tailored solutions.
+                </li>
+              </ul>
             </div>
-    
-            <!-- WordPress Developer Experience -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Freelancer - WordPress Developer <span class="ms-auto text-muted">2021 - Present</span>
-                    </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#experienceAccordion">
-                    <div class="accordion-body">
-                        <ul class="px-md-4">
-                            <li>Built and maintained 7 custom WordPress websites with Elementor</li>
-                            <li>Customized themes to meet specific client requirements and improve user experience.</li>
-                            <li>Optimized Torino Elevators’ layout and SEO, increasing its SEO performance to 95% and growing website traffic by 40%.</li>
-                            <li>Managed website migrations across hosts using All-in-One WP Migration plugin with zero downtime.</li>
-                            <li>Improved website functionality with tracking tools like Google Site Kit and caching tools like WP Rocket.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+
+        <!-- WordPress Developer Experience -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Freelance WordPress Developer
+              <span class="ms-auto text-muted">2021 – Present</span>
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#experienceAccordion"
+          >
+            <div class="accordion-body">
+              <ul class="px-md-4">
+                <li>
+                  Built and maintained custom WordPress websites using
+                  Elementor, ACF, and WooCommerce.
+                </li>
+                <li>
+                  Developed bespoke themes and plugins tailored to client needs
+                  and business goals.
+                </li>
+                <li>
+                  Improved SEO and page speed; boosted Torino Elevators’
+                  performance and increased traffic by 40%.
+                </li>
+                <li>
+                  Handled seamless migrations and backups with tools like
+                  All-in-One WP Migration and UpdraftPlus.
+                </li>
+                <li>
+                  Integrated analytics and caching tools (Google Site Kit, WP
+                  Rocket) to enhance performance.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- React / Next.js / WordPress Developer at Mark -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Full-Stack Web Developer – Mark
+              <span class="ms-auto text-muted">2024 – Present</span>
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#experienceAccordion"
+          >
+            <div class="accordion-body">
+              <ul class="px-md-4">
+                <li>
+                  Responsible for delivering full-scale responsive websites for
+                  clients across various industries.
+                </li>
+                <li>
+                  Built performant web apps using React.js, Next.js (with SSR,
+                  routing, i18n), and Vercel deployment.
+                </li>
+                <li>
+                  Managed content-rich websites and landing pages using
+                  WordPress with custom themes.
+                </li>
+                <li>
+                  Ensured SEO readiness, performance optimization, and
+                  mobile-first implementation.
+                </li>
+                <li>
+                  Collaborated with designers, project managers, and QA to
+                  deliver pixel-perfect, scalable solutions.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    
 
     <!-- Portfolio Section -->
     <section id="portfolio">
-        <div class="container">
-            <h2 class="text-center mb-5">Portfolio</h2>
-      
-            <!-- Tabs for Portfolio Categories -->
-            <ul class="nav nav-tabs justify-content-center mb-4" id="portfolioTabs" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" id="all-tab" data-bs-toggle="tab" href="#all" role="tab">All</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="frontend-tab" data-bs-toggle="tab" href="#front-end" role="tab">Front-End</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="backend-tab" data-bs-toggle="tab" href="#back-end" role="tab">Back-End Laravel</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="landing-tab" data-bs-toggle="tab" href="#landing" role="tab">Landing Pages</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="wordpress-tab" data-bs-toggle="tab" href="#wordpress-p" role="tab">WordPress</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="ecommerce-tab" data-bs-toggle="tab" href="#ecommerce" role="tab">E-commerce Stores</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="react-tab" data-bs-toggle="tab" href="#react" role="tab">React.js</a>
-                </li>
-            </ul>
-        
-            <!-- Tab Content for All Projects -->
-            <div class="tab-content" id="portfolioTabsContent">
-                <!-- All Projects -->
-                <div class="tab-pane fade show active projects" id="all" role="tabpanel">
-                    <div class="row">
-                        <!-- Include all project cards from different categories -->
-                         <!-- Front-End Project Cards Mark Haykalh -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/mark-logo.png" alt="Front-End Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://mark.haykalah.com/" target="_blank">Mark Haykalah</a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">A fully responsive, bilingual website developed from a Figma design using HTML, CSS, and Bootstrap, ensuring a seamless user experience across all devices.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- E-Commerce Project Cards  Gamila -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/GAMILA.ME LOGO.png" alt="Front-End Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://gamila.today/" target="_blank">gamila</a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">An online store offering essential care products for women, including daily care, monthly care, and after-birth bags.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Front-End Project -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/modely.png" alt="Front-End Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://mohamedayad.com/Modely/" target="_blank">Modely</a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">responsive landing page using HTML, CSS, and JavaScript.</p>
-                                </div>
-                            </div>
-                        </div>
+      <div class="container">
+        <h2 class="text-center mb-5">Portfolio</h2>
 
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/hub49.png" alt="Front-End Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://mohamedayad.com/Hub49/" target="_blank">Hub49</a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">Developed a fully responsive landing page for a web app, converting the design from Figma to HTML, CSS, and JS.</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!-- Back-End Project Amdga -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                            <div class="card-front">
-                                <img src="img/Amdga.png" alt="Back-End Project" class="img-fluid portfolio-item">
-                                <h3>
-                                    <a class="py-2 text-warning" href="https://agdae.com.sa/" target="_blank">Amdga </a>
-                                </h3>
-                                <p class="fs-15 mt-4">
-                                    Add and Updated sections of the landing page layout in Laravel and ensured responsive design across all screen sizes.<br><br>
-                                </p>
-                            </div>
-                            </div>
-                        </div>
-                        <!-- Landing Page Project Cards British Institutes Group -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/British Institutes Group .png" alt="Front-End Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://mohamedayad.com/British-Institutes-Group/" target="_blank">British Institutes Group </a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">Converted a PDF design into a fully responsive landing page layout using Bootstrap.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- WordPress Project Cards  Torino Elevators -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/Torino Logo+bg.png" alt="Front-End Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://torinoelevators.com/" target="_blank">Torino Elevators</a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">Developed a multi-language, fully responsive WordPress site with strong SEO, visit tracking, and essential plugins.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- E-commerce Project Cards Yakuot -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/yakuot.png" alt="Front-End Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://yakuot.com/" target="_blank">Yakuot</a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">An online store specializing in silver items and accessories, with integrated payment, installment options, shipping, and complete store functionalities.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- Front-End Projects -->
-                <div class="tab-pane fade" id="front-end" role="tabpanel">
-                    <div class="row">
-                        <!-- Front-End Project Cards Mark Haykalh -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/mark-logo.png" alt="Front-End Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://mark.haykalah.com/" target="_blank">Mark Haykalah</a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">A fully responsive, bilingual website developed from a Figma design using HTML, CSS, and Bootstrap, ensuring a seamless user experience across all devices.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!-- Front-End Project Cards  Modely -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/modely.png" alt="Front-End Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://mohamedayad.com/Modely/" target="_blank">Modely</a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">responsive landing page using HTML, CSS, and JavaScript.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Front-End Project Cards  Hub49 -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/hub49.png" alt="Front-End Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://mohamedayad.com/Hub49/" target="_blank">Hub49</a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">Developed a fully responsive landing page for a web app, converting the design from Figma to HTML, CSS, and JS.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Front-End Project Cards  Admin Dashboard -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/dashboard.png" alt="Front-End Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://mohamedayad.com/Dashboard/" target="_blank">Admin Dashboard</a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">Built a fully responsive admin dashboard with HTML and CSS, using grid and flexbox, featuring multiple pages and options.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Front-End Project Cards  British Institutes Group  -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/British Institutes Group .png" alt="Front-End Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://mohamedayad.com/British-Institutes-Group/" target="_blank">British Institutes Group </a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">Converted a PDF design into a fully responsive landing page layout using Bootstrap.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- Back-End Projects -->
-                <div class="tab-pane fade" id="back-end" role="tabpanel">
-                    <div class="row">
-                        <!-- Back-End Project Cards  Amdga -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                            <div class="card-front">
-                                <img src="img/Amdga.png" alt="Back-End Project" class="img-fluid portfolio-item">
-                                <h3>
-                                    <a class="py-2 text-warning" href="https://agdae.com.sa/" target="_blank">Amdga </a>
-                                </h3>
-                                <p class="fs-15 mt-4">
-                                    Add and Updated sections of the landing page layout in Laravel and ensured responsive design across all screen sizes.
-                                </p>
-                            </div>
-                            </div>
-                        </div>
-                        <!-- Back-End Project Cards  Secure Road Services -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                            <div class="card-front">
-                                <img src="img/Secure Road Services.png" alt="Back-End Project" class="img-fluid portfolio-item">
-                                <h3>
-                                    <a class="py-2 text-warning" href="https://secureroad.net/" target="_blank">Secure Road Services </a>
-                                </h3>
-                                <p class="fs-15 mt-4">
-                                    Developed a car insurance system using Laravel, handling both front-end UI design and back-end functionality
-                                </p>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- Landing Pages Projects -->
-                <div class="tab-pane fade" id="landing" role="tabpanel">
-                    <div class="row">
-                        <!-- Landing Page Project Cards Modely -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/modely.png" alt="Front-End Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://mohamedayad.com/Modely/" target="_blank">Modely</a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">responsive landing page using HTML, CSS, and JavaScript.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Landing Page Project Cards  British Institutes Group  -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/British Institutes Group .png" alt="Front-End Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://mohamedayad.com/British-Institutes-Group/" target="_blank">British Institutes Group </a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">Converted a PDF design into a fully responsive landing page layout using Bootstrap.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Landing Page Project Cards  Hub49 -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/hub49.png" alt="Front-End Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://mohamedayad.com/Hub49/" target="_blank">Hub49</a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">Developed a fully responsive landing page for a web app, converting the design from Figma to HTML, CSS, and JS.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/creative.svg" alt="Mega Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://creative.mohamedayad.com/" target="_blank">Creative </a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">Landing page From figma for a creative agency, with SEO, tracking, and essential plugins.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- WordPress Projects -->
-                <div class="tab-pane fade" id="wordpress-p" role="tabpanel">
-                    <div class="row">
-                        <!-- WordPress Project Cards  Torino Elevators -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/Torino Logo+bg.png" alt="Front-End Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://torinoelevators.com/" target="_blank">Torino Elevators</a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">Developed a multi-language, fully responsive WordPress site with strong SEO, visit tracking, and essential plugins.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- WordPress Project Cards Trace Agency -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/trace.png" alt="Front-End Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://trace-agency.com/" target="_blank">Trace Agency</a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">Created a fully responsive WordPress site for a social media marketing agency, with SEO, tracking, and essential plugins.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- WordPress Project Cards  Mega Agency -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/mega.jpg" alt="Mega Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://mohamedayad.com/" target="_blank">Mega Agency</a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">Created a fully responsive WordPress ,Multi Language site for a social media marketing agency, with SEO, tracking, and essential plugins.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- WordPress Project Cards Creative landing page -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/creative.svg" alt="Mega Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://creative.mohamedayad.com/" target="_blank">Creative </a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">Landing page From figma for a creative agency, with SEO, tracking, and essential plugins.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <!-- Tabs for Portfolio Categories -->
+        <ul
+          class="nav nav-tabs justify-content-center mb-4"
+          id="portfolioTabs"
+          role="tablist"
+        >
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              id="all-tab"
+              data-bs-toggle="tab"
+              href="#all"
+              role="tab"
+              >All</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="frontend-tab"
+              data-bs-toggle="tab"
+              href="#front-end"
+              role="tab"
+              >Front-End</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="backend-tab"
+              data-bs-toggle="tab"
+              href="#back-end"
+              role="tab"
+              >Laravel</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="landing-tab"
+              data-bs-toggle="tab"
+              href="#landing"
+              role="tab"
+              >Landing Page</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="wordpress-tab"
+              data-bs-toggle="tab"
+              href="#wordpress-p"
+              role="tab"
+              >WordPress</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="ecommerce-tab"
+              data-bs-toggle="tab"
+              href="#ecommerce"
+              role="tab"
+              >E-commerce Stores</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="react-tab"
+              data-bs-toggle="tab"
+              href="#react"
+              role="tab"
+              >React.js</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="next-tab"
+              data-bs-toggle="tab"
+              href="#next"
+              role="tab"
+              >Next.js</a
+            >
+          </li>
+        </ul>
 
-                <!-- E-Commerce Projects -->
-                <div class="tab-pane fade" id="ecommerce" role="tabpanel">
-                    <div class="row">
-                        <!-- E-Commerce Project Cards  Gamila -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/GAMILA.ME LOGO.png" alt="Front-End Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://gamila.today/" target="_blank">gamila</a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">An online store offering essential care products for women, including daily care, monthly care, and after-birth bags.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- E-Commerce Project Cards  Alhoot Store -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/alhoot-logo.jpeg" alt="Front-End Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://alhootsa.com/" target="_blank">Alhoot</a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">Alhoot Store – An online seafood marketplace specializing in fresh fish and premium seafood, built using the Salla platform. Designed for an effortless shopping experience with a clean interface, smooth navigation, and secure payment integration.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- E-Commerce Project Cards  Wqaya -->
-                        <div class="col-md-4 mb-4">
+        <!-- Tab Content for All Projects -->
+        <div class="tab-content" id="portfolioTabsContent">
+          <!-- All Projects -->
+          <div
+            class="tab-pane fade show active projects"
+            id="all"
+            role="tabpanel"
+          >
+            <div class="row">
+              <!-- Include all project cards from different categories -->
+              <!-- Front-End Project Cards Mark Haykalh -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/mark-logo.png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://mark.haykalah.com/"
+                        target="_blank"
+                        >Mark Haykalah</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      A fully responsive, bilingual website developed from a
+                      Figma design using HTML, CSS, and Bootstrap, ensuring a
+                      seamless user experience across all devices.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- E-Commerce Project Cards  Gamila -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/GAMILA.ME LOGO.png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://gamila.today/"
+                        target="_blank"
+                        >gamila</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      An online store offering essential care products for
+                      women, including daily care, monthly care, and after-birth
+                      bags.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Front-End Project -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/modely.png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://mohamedayad.com/Modely/"
+                        target="_blank"
+                        >Modely</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Modely is a simple landing page built with HTML, CSS, and
+                      JS, reflecting brand identity.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/hub49.png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://mohamedayad.com/Hub49/"
+                        target="_blank"
+                        >Hub49</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Developed a fully responsive landing page for a web app,
+                      converting the design from Figma to HTML, CSS, and JS.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Back-End Project Amdga -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/Amdga.png"
+                      alt="Back-End Project"
+                      class="img-fluid portfolio-item"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://agdae.com.sa/"
+                        target="_blank"
+                        >Amdga
+                      </a>
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Add and Updated sections of the landing page layout in
+                      Laravel and ensured responsive design across all screen
+                      sizes.<br /><br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Landing Page Project Cards British Institutes Group -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/British Institutes Group .png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://mohamedayad.com/British-Institutes-Group/"
+                        target="_blank"
+                        >British Institutes Group
+                      </a>
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Converted a PDF design into a fully responsive landing
+                      page layout using Bootstrap.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- WordPress Project Cards  Torino Elevators -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/Torino Logo+bg.png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://torinoelevators.com/"
+                        target="_blank"
+                        >Torino Elevators</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Developed a multi-language, fully responsive WordPress
+                      site with strong SEO, visit tracking, and essential
+                      plugins.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- E-commerce Project Cards Yakuot -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/yakuot.png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://yakuot.com/"
+                        target="_blank"
+                        >Yakuot</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      An online store specializing in silver items and
+                      accessories, with integrated payment, installment options,
+                      shipping, and complete store functionalities.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Front-End Projects -->
+          <div class="tab-pane fade" id="front-end" role="tabpanel">
+            <div class="row">
+              <!-- Front-End Project Cards Mark Haykalh -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/mark-logo.png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://mark.haykalah.com/"
+                        target="_blank"
+                        >Mark.</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Mark is a modern, bilingual portfolio built with Next.js,
+                      showcasing web development and design expertise.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Front-End Project Cards  Modely -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/modely.png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://mohamedayad.com/Modely/"
+                        target="_blank"
+                        >Modely</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Modely is a simple landing page built with HTML, CSS, and
+                      JS, reflecting brand identity
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Front-End Project Cards  Hub49 -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/hub49.png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://mohamedayad.com/Hub49/"
+                        target="_blank"
+                        >Hub49</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Developed a fully responsive landing page for a web app,
+                      converting the design from Figma to HTML, CSS, and JS.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Front-End Project Cards  Admin Dashboard -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/dashboard.png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://mohamedayad.com/Dashboard/"
+                        target="_blank"
+                        >Admin Dashboard</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Built a fully responsive admin dashboard with HTML and
+                      CSS, using grid and flexbox, featuring multiple pages and
+                      options.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Front-End Project Cards  British Institutes Group  -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/British Institutes Group .png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://mohamedayad.com/British-Institutes-Group/"
+                        target="_blank"
+                        >British Institutes Group
+                      </a>
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Converted a PDF design into a fully responsive landing
+                      page layout using Bootstrap.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Back-End Projects -->
+          <div class="tab-pane fade" id="back-end" role="tabpanel">
+            <div class="row">
+              <!-- Back-End Project Cards  Amdga -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/Amdga.png"
+                      alt="Back-End Project"
+                      class="img-fluid portfolio-item"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://agdae.com.sa/"
+                        target="_blank"
+                        >Amdga
+                      </a>
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Add and Updated sections of the landing page layout in
+                      Laravel and ensured responsive design across all screen
+                      sizes.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Back-End Project Cards  Secure Road Services -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/Secure Road Services.png"
+                      alt="Back-End Project"
+                      class="img-fluid portfolio-item"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://secureroad.net/"
+                        target="_blank"
+                        >Secure Road Services
+                      </a>
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Developed a car insurance system using Laravel, handling
+                      both front-end UI design and back-end functionality
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Landing Pages Projects -->
+          <div class="tab-pane fade" id="landing" role="tabpanel">
+            <div class="row">
+              <!-- Landing Page Project Cards Modely -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/modely.png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://mohamedayad.com/Modely/"
+                        target="_blank"
+                        >Modely</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Modely is a simple landing page built with HTML, CSS, and
+                      JS, reflecting brand identity.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Landing Page Project Cards  British Institutes Group  -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/British Institutes Group .png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://mohamedayad.com/British-Institutes-Group/"
+                        target="_blank"
+                        >British Institutes Group
+                      </a>
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Converted a PDF design into a fully responsive landing
+                      page layout using Bootstrap.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Landing Page Project Cards  Hub49 -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/hub49.png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://mohamedayad.com/Hub49/"
+                        target="_blank"
+                        >Hub49</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Developed a fully responsive landing page for a web app,
+                      converting the design from Figma to HTML, CSS, and JS.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/creative.svg"
+                      alt="Mega Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://creative.mohamedayad.com/"
+                        target="_blank"
+                        >Creative
+                      </a>
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Landing page From figma for a creative agency, with SEO,
+                      tracking, and essential plugins.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- WordPress Projects -->
+          <div class="tab-pane fade" id="wordpress-p" role="tabpanel">
+            <div class="row">
+              <!-- WordPress Project Cards  Torino Elevators -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/Torino Logo+bg.png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://torinoelevators.com/"
+                        target="_blank"
+                        >Torino Elevators</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Developed a multi-language, fully responsive WordPress
+                      site with strong SEO, visit tracking, and essential
+                      plugins.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- WordPress Project Cards  Mega Agency -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/mega.jpg"
+                      alt="Mega Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://mega-agency.mohamedayad.com/"
+                        target="_blank"
+                        >Mega Agency</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Created a fully responsive WordPress ,Multi Language site
+                      for a social media marketing agency, with SEO, tracking,
+                      and essential plugins.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- WordPress Project Cards  Wooden Art -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/wooden-logo.png"
+                      alt="Mega Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://wood.mohamedayad.com/"
+                        target="_blank"
+                        >Wooden Art</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Created a fully responsive WordPress ,Multi Language site
+                      for a branding wooden in S.A
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- WordPress Project Cards Trace Agency -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/trace.png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://trace-agency.com/"
+                        target="_blank"
+                        >Trace Agency</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Created a fully responsive WordPress site for a social
+                      media marketing agency, with SEO, tracking, and essential
+                      plugins.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- WordPress Project Cards Creative landing page -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/creative.svg"
+                      alt="Mega Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://creative.mohamedayad.com/"
+                        target="_blank"
+                        >Creative
+                      </a>
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Landing page From figma for a creative agency, with SEO,
+                      tracking, and essential plugins.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- E-Commerce Projects -->
+          <div class="tab-pane fade" id="ecommerce" role="tabpanel">
+            <div class="row">
+              <!-- E-Commerce Project Cards  Gamila - shopify -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/GAMILA.ME LOGO.png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://gamila.me/en "
+                        target="_blank"
+                        >gamila.me</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      An online store offering essential care products for
+                      women, Built with <strong>Shopify</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- E-Commerce Project Kion-Store -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/eyelanguage.jpg"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://kion-store.com/"
+                        target="_blank"
+                      >
+                        Kion-Store</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Kion-Store is a <strong>Shopify</strong> eCommerce store
+                      offering electrical tools, switches, keys, and
+                      accessories.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- E-Commerce Project Cards  Gamila -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/GAMILA.ME LOGO.png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://gamila.today/"
+                        target="_blank"
+                        >gamila</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      An online store offering essential care products for
+                      women, including daily care, monthly care, and after-birth
+                      bags. Built with <strong>Zid</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- E-Commerce Project Cards  Alhoot Store -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/alhoot-logo.jpeg"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://alhootsa.com/"
+                        target="_blank"
+                        >Alhoot</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Alhoot Store – An online seafood marketplace specializing
+                      in fresh fish and premium seafood, built using the
+                      <strong>Salla</strong> platform.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- E-Commerce Project Cards  Nasig masr -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/nasigmasr.png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://nasigmasr.com/en"
+                        target="_blank"
+                        >Nasig Masr</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Nasig Masr is a <strong>Shopify</strong> store
+                      specializing in selling all types of home textiles and
+                      furnishings.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- E-Commerce Project Cards  Wqaya -->
+              <!-- <div class="col-md-4 mb-4">
                             <div class="portfolio-card">
                                 <div class="card-front">
                                     <img src="img/wqaya.png" alt="Front-End Project" class="img-fluid portfolio-item py-5">
@@ -536,339 +1257,614 @@
                                     <p class="fs-15 mt-4">An online store for selling paper tissues, featuring multiple sections, customized product options, and integrated payment and shipping methods.</p>
                                 </div>
                             </div>
-                        </div>
-                        <!-- E-Commerce Project Cards Yakuot -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/yakuot.png" alt="Front-End Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://yakuot.com/" target="_blank">Yakuot</a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">An online store specializing in silver items and accessories, with integrated payment, installment options, shipping, and complete store functionalities.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- E-Commerce Project Eye-language -->
-                        <div class="col-md-4 mb-4">
-                            <div class="portfolio-card">
-                                <div class="card-front">
-                                    <img src="img/eyelanguage.jpg" alt="Front-End Project" class="img-fluid portfolio-item py-5">
-                                    <h3>
-                                        <a class="py-2 text-warning" href="https://shop.eyelanguage.sa/" target="_blank">Eye-Language</a>
-                                    </h3>
-                                    <p class="fs-15 mt-4">An online store for selling Eye lens, featuring multiple sections, customized product options, and integrated payment and shipping methods.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                        </div> -->
 
-                <!-- React.js Projects -->
-                <div class="tab-pane fade" id="react" role="tabpanel">
-                    <div class="row">
-                        <!-- react Project Cards  To-Do App -->
-                        <div class="col-md-4 mb-4">
+              <!-- E-Commerce Project Cards Yakuot -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/yakuot.png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://yakuot.com/"
+                        target="_blank"
+                        >Yakuot</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      An online store specializing in silver items and
+                      accessories, with integrated payment, installment options,
+                      shipping, and complete store functionalities. Built with
+                      <strong>Zid</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- E-Commerce Project Eye-language -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/eyelanguage.jpg"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://shop.eyelanguage.sa/"
+                        target="_blank"
+                        >Eye-Language</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      An online store for selling Eye lens, featuring multiple
+                      sections, customized product options, and integrated
+                      payment and shipping methods.Built with
+                      <strong>Salla</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- React.js Projects -->
+          <div class="tab-pane fade" id="react" role="tabpanel">
+            <div class="row">
+              <!-- react Project Cards  To-Do App -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/todo-app.png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://mohamedayad.com/ToDo-App/"
+                        target="_blank"
+                        >To-Do App</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      A simple task management app built with React.js,
+                      featuring state management, context API, CRUD operations,
+                      and routing. Tasks are stored in localStorage, with
+                      React-Toastify for notifications and Bootstrap for
+                      styling.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Next.js Projects -->
+          <div class="tab-pane fade" id="next" role="tabpanel">
+            <div class="row">
+              <!-- Next.js Project Cards Mark Haykalh -->
+              <div class="col-md-4 mb-4">
+                <div class="portfolio-card">
+                  <div class="card-front">
+                    <img
+                      src="img/mark-logo.png"
+                      alt="Front-End Project"
+                      class="img-fluid portfolio-item py-5"
+                    />
+                    <h3>
+                      <a
+                        class="py-2 text-warning"
+                        href="https://mark.haykalah.com/"
+                        target="_blank"
+                        >Mark.</a
+                      >
+                    </h3>
+                    <p class="fs-15 mt-4">
+                      Mark is a modern, bilingual portfolio built with Next.js,
+                      showcasing web development and design expertise.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Next.js Project Cards Fina Haykalh -->
+              <!-- <div class="col-md-4 mb-4">
                             <div class="portfolio-card">
                                 <div class="card-front">
-                                    <img src="img/todo-app.png" alt="Front-End Project" class="img-fluid portfolio-item py-5">
+                                    <img src="img/Fina-logo.svg" alt="Front-End Project" class="img-fluid portfolio-item py-5">
                                     <h3>
-                                        <a class="py-2 text-warning" href="https://mohamedayad.com/ToDo-App/" target="_blank">To-Do App</a>
+                                        <a class="py-2 text-warning" href="https://fina.haykalah.com/" target="_blank">Fina.</a>
                                     </h3>
-                                    <p class="fs-15 mt-4">A simple task management app built with React.js, featuring state management, context API, CRUD operations, and routing. Tasks are stored in localStorage, with React-Toastify for notifications and Bootstrap for styling. </p>
+                                    <p class="fs-15 mt-4">Fina is a modern, bilingual portfolio built with Next.js, showcasing web development and design expertise.</p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                        </div> -->
             </div>
+          </div>
         </div>
+      </div>
     </section>
-      
+
     <!-- testimonials  -->
     <section id="testimonials">
-        <div class="container">
-            <h2 class="text-center mb-4">Testimonials</h2>
-            <p class="text-center mb-5">What clients say about my work on Upwork.</p>
-        
-            <!-- Bootstrap Carousel -->
-            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <!-- Testimonial 5 -->
-                    <div class="carousel-item">
-                        <div class="card mx-auto text-center" style="max-width: 600px;">
-                            <div class="card-body">
-                                <p class="card-text">"Great work !! nice and quick development !! Mhmd just delivered the work and I didn't have a single comment on the creation, it's JUST PERFECT ! appreciate your effort Mhmd and hopefully we work together again !!" </p>
-                                <div class="stars my-3">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <p class="card-title"><strong>Fange Ge</strong> - Upwork Client</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Testimonial 6 -->
-                    <div class="carousel-item">
-                        <div class="card mx-auto text-center" style="max-width: 600px;">
-                            <div class="card-body">
-                                <p class="card-text">"Great work !! I was in need for experienced for high quality task & Mohammed just exceeded all expectations !! His experience and knowledge is just in another level !! I really like that we worked together in this project and I HIGHLY recommend him for anyone looking for Quality Work over here !!! He is one of the best on this platform !" </p>
-                                <div class="stars my-3">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <p class="card-title"><strong>Ap Plungan</strong> - Upwork Client</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Testimonial 7 -->
-                    <div class="carousel-item">
-                        <div class="card mx-auto text-center" style="max-width: 600px;">
-                            <div class="card-body">
-                                <p class="card-text">"Mhmd is AMAZING !! it was so great working with him, he is so professional and creative and delivered the work in so nice and neat way !!! Thanks for all the help and looking forward to work with you again in the soon future Mhmd !!!" </p>
-                                <div class="stars my-3">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <p class="card-title"><strong>Sam Jhon</strong> - Upwork Client</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Testimonial 1 -->
-                    <div class="carousel-item active">
-                        <div class="card mx-auto text-center" style="max-width: 600px;">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    "He accepted and delivered the job overnight.perfect"
-                                </p>
-                                <div class="stars my-3">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <p class="card-title"><strong>Enrico Villa</strong> - Upwork Client</p>
-                            </div>
-                        </div>
-                    </div>
-        
-                    <!-- Testimonial 2 -->
-                    <div class="carousel-item">
-                        <div class="card mx-auto text-center" style="max-width: 600px;">
-                            <div class="card-body">
-                                <p class="card-text">"I have to admit, I did not give him the time he needed to finish this project fully and HE STILL DID! Highly recommend this wonderful gentleman."</p>
-                                <div class="stars my-3">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <p class="card-title"><strong>Fares Alaboud</strong> - Upwork Client</p>
-                            </div>
-                        </div>
-                    </div>
-        
-                    <!-- Testimonial 3 -->
-                    <div class="carousel-item">
-                        <div class="card mx-auto text-center" style="max-width: 600px;">
-                            <div class="card-body">
-                                <p class="card-text">"It was SUPER NICE working with Mhmd, I really appreciate his skills and his inside-out knowledge of his field ! and he delivered the work in most neat and nice way so the future developers can still have a great understand and ability to enhance !! will come back to work with him again in the near future !!</p>
-                                <div class="stars my-3">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <p class="card-title"><strong>Ahmed Ibrahim</strong> - Upwork Client</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Testimonial 4 -->
-                    <div class="carousel-item">
-                        <div class="card mx-auto text-center" style="max-width: 600px;">
-                            <div class="card-body">
-                                <p class="card-text">"Great Work !! the front-end done perfectly and in very short time !! I am really glad to work with Mohamed and how experienced and skilled he is !! For sure working with him again in the near future !!" </p>
-                                <div class="stars my-3">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <p class="card-title"><strong>Ahmed Ibrahim</strong> - Upwork Client</p>
-                            </div>
-                        </div>
-                    </div>
-                    
+      <div class="container">
+        <h2 class="text-center mb-4">Testimonials</h2>
+        <p class="text-center mb-5">
+          What clients say about my work on Upwork.
+        </p>
+
+        <!-- Bootstrap Carousel -->
+        <div
+          id="testimonialCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- Testimonial 5 -->
+            <div class="carousel-item">
+              <div class="card mx-auto text-center" style="max-width: 600px">
+                <div class="card-body">
+                  <p class="card-text">
+                    "Great work !! nice and quick development !! Mhmd just
+                    delivered the work and I didn't have a single comment on the
+                    creation, it's JUST PERFECT ! appreciate your effort Mhmd
+                    and hopefully we work together again !!"
+                  </p>
+                  <div class="stars my-3">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <p class="card-title">
+                    <strong>Fange Ge</strong> - Upwork Client
+                  </p>
                 </div>
-        
-                <!-- Carousel Controls -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+              </div>
             </div>
+            <!-- Testimonial 6 -->
+            <div class="carousel-item">
+              <div class="card mx-auto text-center" style="max-width: 600px">
+                <div class="card-body">
+                  <p class="card-text">
+                    "Great work !! I was in need for experienced for high
+                    quality task & Mohammed just exceeded all expectations !!
+                    His experience and knowledge is just in another level !! I
+                    really like that we worked together in this project and I
+                    HIGHLY recommend him for anyone looking for Quality Work
+                    over here !!! He is one of the best on this platform !"
+                  </p>
+                  <div class="stars my-3">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <p class="card-title">
+                    <strong>Ap Plungan</strong> - Upwork Client
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Testimonial 7 -->
+            <div class="carousel-item">
+              <div class="card mx-auto text-center" style="max-width: 600px">
+                <div class="card-body">
+                  <p class="card-text">
+                    "Mhmd is AMAZING !! it was so great working with him, he is
+                    so professional and creative and delivered the work in so
+                    nice and neat way !!! Thanks for all the help and looking
+                    forward to work with you again in the soon future Mhmd !!!"
+                  </p>
+                  <div class="stars my-3">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <p class="card-title">
+                    <strong>Sam Jhon</strong> - Upwork Client
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Testimonial 1 -->
+            <div class="carousel-item active">
+              <div class="card mx-auto text-center" style="max-width: 600px">
+                <div class="card-body">
+                  <p class="card-text">
+                    "He accepted and delivered the job overnight.perfect"
+                  </p>
+                  <div class="stars my-3">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <p class="card-title">
+                    <strong>Enrico Villa</strong> - Upwork Client
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="carousel-item">
+              <div class="card mx-auto text-center" style="max-width: 600px">
+                <div class="card-body">
+                  <p class="card-text">
+                    "I have to admit, I did not give him the time he needed to
+                    finish this project fully and HE STILL DID! Highly recommend
+                    this wonderful gentleman."
+                  </p>
+                  <div class="stars my-3">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <p class="card-title">
+                    <strong>Fares Alaboud</strong> - Upwork Client
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="carousel-item">
+              <div class="card mx-auto text-center" style="max-width: 600px">
+                <div class="card-body">
+                  <p class="card-text">
+                    "It was SUPER NICE working with Mhmd, I really appreciate
+                    his skills and his inside-out knowledge of his field ! and
+                    he delivered the work in most neat and nice way so the
+                    future developers can still have a great understand and
+                    ability to enhance !! will come back to work with him again
+                    in the near future !!
+                  </p>
+                  <div class="stars my-3">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <p class="card-title">
+                    <strong>Ahmed Ibrahim</strong> - Upwork Client
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Testimonial 4 -->
+            <div class="carousel-item">
+              <div class="card mx-auto text-center" style="max-width: 600px">
+                <div class="card-body">
+                  <p class="card-text">
+                    "Great Work !! the front-end done perfectly and in very
+                    short time !! I am really glad to work with Mohamed and how
+                    experienced and skilled he is !! For sure working with him
+                    again in the near future !!"
+                  </p>
+                  <div class="stars my-3">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <p class="card-title">
+                    <strong>Ahmed Ibrahim</strong> - Upwork Client
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
+      </div>
     </section>
-    
 
     <!-- Skills Section -->
     <section id="skills">
-        <div class="container">
-            <h2 class="text-center mb-5">Skills</h2>
-            <div class="row">
-                <!-- Front-End Skills -->
-                <div class="col-md-4">
-                    <div class="skill-box p-4 text-center h-100">
-                        <h3 class="mb-3">Front-End</h3>
-                        <ul class="list-unstyled">
-                            <li>HTML5, CSS3 (Sass), Bootstrap</li>
-                            <li>JavaScript, Vue.js, ES6</li>
-                            <li>jQuery, Ajax</li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Back-End Skills -->
-                <div class="col-md-4">
-                    <div class="skill-box p-4 text-center h-100">
-                        <h3 class="mb-3">Back-End</h3>
-                        <ul class="list-unstyled">
-                            <li>PHP, Laravel, MySQL</li>
-                            <li>APIs, JSON</li>
-                            <li>Git, GitHub</li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- WordPress Skills -->
-                <div class="col-md-4">
-                    <div class="skill-box p-4 text-center h-100">
-                        <h3 class="mb-3">WordPress</h3>
-                        <ul class="list-unstyled">
-                            <li>Custom Themes, Plugins</li>
-                            <li>Elementor, WooCommerce</li>
-                            <li>SEO, Performance Optimization</li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="text-center mb-5">Skills</h2>
+        <div class="row">
+          <!-- Front-End Skills -->
+          <div class="col-md-3">
+            <div class="skill-box p-4 text-center h-100">
+              <h3 class="mb-3">Front-End</h3>
+              <ul class="list-unstyled">
+                <li>HTML5, CSS3 (Sass), Bootstrap</li>
+                <li>JavaScript (ES6+), jQuery, Ajax</li>
+                <li>React.js, Next.js</li>
+                <li>Tailwind CSS, Framer Motion</li>
+              </ul>
             </div>
+          </div>
+
+          <!-- Back-End & Tools -->
+          <div class="col-md-3">
+            <div class="skill-box p-4 text-center h-100">
+              <h3 class="mb-3">Back-End & Tools</h3>
+              <ul class="list-unstyled">
+                <li>PHP, Laravel, MySQL</li>
+                <li>REST APIs, JSON</li>
+                <li>Git, GitHub, VS Code</li>
+                <li>cPanel, FTP, SSH</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- WordPress -->
+          <div class="col-md-3">
+            <div class="skill-box p-4 text-center h-100">
+              <h3 class="mb-3">WordPress</h3>
+              <ul class="list-unstyled">
+                <li>Custom Themes & Plugins</li>
+                <li>Elementor,Divi, WooCommerce</li>
+                <li>WP Rocket, Site Kit</li>
+                <li>SEO & Performance Optimization</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- DevOps & Deployment -->
+          <div class="col-md-3">
+            <div class="skill-box p-4 text-center h-100">
+              <h3 class="mb-3">Deployment & Hosting</h3>
+              <ul class="list-unstyled">
+                <li>Vercel, Netlify</li>
+                <li>DNS, Domain & Hosting Setup</li>
+                <li>Website Migrations</li>
+                <li>Performance Monitoring</li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Education Section -->
     <section id="education" class="py-5 mt-5">
-        <div class="container">
-            <div class="row">
-                <!-- Left Column for Certifications -->
-                <div class="col-md-6 mb-4">
-                    <h2>Certifications</h2>
-                    <ul class="list-unstyled">
-                        <li>
-                            <a class="text-muted" href="https://drive.google.com/file/d/1O8Zp_92sYyX0L63HZIJnPEXtzJ73QVCo/view?usp=sharing" target="_blank">HTML + CSS</a>
-                        </li>
-                        <li>
-                            <a class="text-muted" href="https://drive.google.com/file/d/1xg8OiPlWAW0xxAIK2dFstelh4b6mfEfG/view?usp=sharing" target="_blank">JavaScript</a>
-                        </li>
-                        <li>
-                            <a class="text-muted" href="https://drive.google.com/file/d/17BqArGsB3Q9vHgdo-ycsL0R8TNhcdjCl/view?usp=sharing" target="_blank">UX Design</a>
-                        </li>
-                        <li>
-                            <a class="text-muted" href="https://drive.google.com/file/d/1ubIDqzvAn9g57DTB1A5R7cPzHZuVYWD5/view?usp=sharing" target="_blank">ES6</a>
-                        </li>
-                        <li>
-                            <a class="text-muted" href="https://drive.google.com/file/d/1d1OTgjRg1T7scVyQF6TpshTjmqxjYVT5/view?usp=sharing" target="_blank">MEAN Stack Developer</a>
-                        </li>
-                        <li>
-                            <a class="text-muted" href="https://drive.google.com/file/d/1HoQ2kU3az_YCi3kRiZfJl7hTrKMGhQQd/view?usp=sharing" target="_blank">Database</a>
-                        </li>
-                    </ul>
-                </div>
-        
-                <!-- Right Column for Education Details -->
-                <div class="col-md-6">
-                    <h2>Education</h2>
-                    <p class="education-details">
-                        <strong>Computer Science</strong> <br>
-                        Faculty of Computer and Information, Menufia, Egypt <br>
-                        (2017-2021)
-                    </p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <!-- Left Column for Certifications -->
+          <div class="col-md-6 mb-4">
+            <h2>Certifications</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  class="text-muted"
+                  href="https://drive.google.com/file/d/1O8Zp_92sYyX0L63HZIJnPEXtzJ73QVCo/view?usp=sharing"
+                  target="_blank"
+                  >HTML + CSS</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-muted"
+                  href="https://drive.google.com/file/d/1xg8OiPlWAW0xxAIK2dFstelh4b6mfEfG/view?usp=sharing"
+                  target="_blank"
+                  >JavaScript</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-muted"
+                  href="https://drive.google.com/file/d/17BqArGsB3Q9vHgdo-ycsL0R8TNhcdjCl/view?usp=sharing"
+                  target="_blank"
+                  >UX Design</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-muted"
+                  href="https://drive.google.com/file/d/1ubIDqzvAn9g57DTB1A5R7cPzHZuVYWD5/view?usp=sharing"
+                  target="_blank"
+                  >ES6</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-muted"
+                  href="https://drive.google.com/file/d/1d1OTgjRg1T7scVyQF6TpshTjmqxjYVT5/view?usp=sharing"
+                  target="_blank"
+                  >MEAN Stack Developer</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-muted"
+                  href="https://drive.google.com/file/d/1HoQ2kU3az_YCi3kRiZfJl7hTrKMGhQQd/view?usp=sharing"
+                  target="_blank"
+                  >Database</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Right Column for Education Details -->
+          <div class="col-md-6">
+            <h2>Education</h2>
+            <p class="education-details">
+              <strong>Computer Science</strong> <br />
+              Faculty of Computer and Information, Menufia, Egypt <br />
+              (2017-2021)
+            </p>
+          </div>
         </div>
+      </div>
     </section>
-    
+
     <!-- Contact  -->
     <section id="contact" class="container py-5">
-        <div class="row">
-            <!-- Left Column - Contact Information -->
-            <div class="col-md-6 mb-4">
-                <h2>Contact Information</h2>
-                <p>If you'd like to get in touch, feel free to reach out using any of the methods below.</p>
-                <ul class="list-unstyled contact-details">
-                    <li><strong>Email:</strong> <a class="text-warning" href="mailto:ayadm536@gmail.com">ayadm536@gmail.com</a></li>
-                    <li><strong>Phone:</strong> <a class="text-warning" href="tel:+201092869837">+201092869837</a></li>
-                    <li><strong>WhatsApp:</strong> <a class="text-warning" href="https://wa.me/201092869837" target="_blank">Chat on WhatsApp</a></li>
-                    <li class="social-icons">
-                        <strong>Social Media:</strong> 
-                        <a href="https://www.linkedin.com/in/mohamed-ayad-294295130/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/mohamed-t-ayad" target="_blank"><i class="fab fa-github"></i></a>
-                    </li>
-                </ul>
-            </div>
-    
-            <!-- Right Column - Contact Form -->
-            <div class="col-md-6">
-                <h2>Get in Touch</h2>
-                <form id="contactForm" action="https://formsubmit.co/your-email@gmail.com" method="POST">
-                    <div class="mb-3">
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
-                    </div>
-                    <div class="mb-3">
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
-                    </div>
-                    <div class="mb-3">
-                        <input type="tel" class="form-control" id="phone"  name="phone" placeholder="Phone Number">
-                    </div>
-                    <div class="mb-3">
-                        <input type="url" class="form-control" id="website" name="website" placeholder="Website URL">
-                    </div>
-                    <div class="mb-3">
-                        <textarea class="form-control" id="message" name="message" rows="4" placeholder="Message" required></textarea>
-                    </div>
-                    <!-- Hidden input to prevent spam -->
-                    <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_next" value="your-website-url/thank-you.html">
-                    <div class="mb-3">
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
-                </form>
-                <div id="successMessage" class="alert alert-success d-none" role="alert">
-                    Your message has been sent successfully!
-                </div>
-            </div>
+      <div class="row">
+        <!-- Left Column - Contact Information -->
+        <div class="col-md-6 mb-4">
+          <h2>Contact Information</h2>
+          <p>
+            If you'd like to get in touch, feel free to reach out using any of
+            the methods below.
+          </p>
+          <ul class="list-unstyled contact-details">
+            <li>
+              <strong>Email:</strong>
+              <a class="text-warning" href="mailto:ayadm536@gmail.com"
+                >ayadm536@gmail.com</a
+              >
+            </li>
+            <li>
+              <strong>Phone:</strong>
+              <a class="text-warning" href="tel:+201092869837">+201092869837</a>
+            </li>
+            <li>
+              <strong>WhatsApp:</strong>
+              <a
+                class="text-warning"
+                href="https://wa.me/201092869837"
+                target="_blank"
+                >Chat on WhatsApp</a
+              >
+            </li>
+            <li class="social-icons">
+              <strong>Other:</strong>
+              <a
+               class="text-black"
+                href="https://www.linkedin.com/in/mohamed-ayad-294295130/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a class="text-black" href="https://github.com/mohamed-t-ayad" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+          </ul>
         </div>
+
+        <!-- Right Column - Contact Form -->
+        <div class="col-md-6">
+          <h2>Get in Touch</h2>
+          <form
+            id="contactForm"
+            action="https://formsubmit.co/your-email@gmail.com"
+            method="POST"
+          >
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                name="name"
+                placeholder="Name"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="tel"
+                class="form-control"
+                id="phone"
+                name="phone"
+                placeholder="Phone Number"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="website"
+                name="website"
+                placeholder="Website URL"
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Message"
+                required
+              ></textarea>
+            </div>
+            <!-- Hidden input to prevent spam -->
+            <input type="hidden" name="_captcha" value="false" />
+            <input
+              type="hidden"
+              name="_next"
+              value="your-website-url/thank-you.html"
+            />
+            <div class="mb-3">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+          <div
+            id="successMessage"
+            class="alert alert-success d-none"
+            role="alert"
+          >
+            Your message has been sent successfully!
+          </div>
+        </div>
+      </div>
     </section>
-    
+
     <!-- Footer -->
     <footer class="text-center py-3 bg-dark text-white">
-        <p>Find me on <a href="https://github.com/mohamed-t-ayad" class="text-warning">GitHub</a> | <a href="https://www.linkedin.com/in/m-ayad/" class="text-warning">LinkedIn</a></p>
+      <p>
+        <p>Find Me On</p>
+        <a href="https://github.com/mohamed-t-ayad" class="text-warning">
+          <i class="fab fa-github fa-2x"></i
+        ></a>
+        |
+        <a href="https://www.linkedin.com/in/m-ayad/" class="text-warning">
+          <i class="fab fa-linkedin fa-2x"></i
+        ></a>
+        <p class="pt-5">&copy; 2024 Mohamed Ayad. All rights reserved.</p>
+      </p>
     </footer>
 
     <!-- Scripts -->
     <script src="js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
